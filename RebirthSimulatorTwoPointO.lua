@@ -20,129 +20,107 @@ RebirthsSection:NewToggle("Automatic Normal Rebirth", "Toggles the automatic Nor
         getgenv().Dust = game.Players.LocalPlayer.leaderstats.Dust.Value
         getgenv().RebirthButton = null
         getgenv().RA = true
-        getgenv().R1 = true
-        getgenv().R2 = true
-        getgenv().R3 = true
-        getgenv().R4 = true
-        getgenv().R5 = true
-        getgenv().R6 = true
-        getgenv().R7 = true
-        getgenv().R8 = true
-        getgenv().R9 = true
-        getgenv().R10 = true
-        getgenv().R11 = true
-        getgenv().R12 = true
-        getgenv().R13 = true
-        getgenv().R14 = true
-        getgenv().R15 = true
-        getgenv().R16 = true
-
-
 
         while wait() do
             if not RA == true then break end
                 
-            if getgenv().R1 == true then
+            if Dust < 2999999 then
                 RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button1.Part
-                getgenv().R1 = false
-
-            elseif getgenv().R1 == false and R2 == true then
+                
+            elseif  Dust < 19999999 then
                 RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button2.Part
-                getgenv().R2 = false
-
-            elseif getgenv().R2 == false and getgenv().R3 == true then
+                
+            elseif Dust < 79999999 then
                 RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button3.Part
-                getgenv().R3 = false
                 
-            elseif getgenv().R3 == false and getgenv().R4 == true then
+            elseif Dust < 199999999 then
                 RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button4.Part
-                getgenv().R4 = false
-               
-            elseif getgenv().R4 == false and getgenv().R5 == true then
+                
+            elseif Dust < 3999999999 then
                 RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button5.Part
-                getgenv().R5 = false
                 
-            elseif getgenv().R5 == false and getgenv().R6 == true then
+            elseif Dust < 39999999999 then
                 RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button6.Part
-                getgenv().R6 = false
                 
-            elseif getgenv().R6 == false and getgenv().R7 == true then
+            elseif Dust < 177999999999 then
                 RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button7.Part
-                getgenv().R7 = false
                
-            elseif getgenv().R7 == false and getgenv().R8 == true then
+            elseif Dust < 999999999999 then
                 RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button8.Part
-                getgenv().R8 = false
                 
-            elseif getgenv().R8 == false and getgenv().R9 == true then
+            elseif Dust < 4999999999999 then
                 RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button9.Part
-                getgenv().R9 = false
-               
-            elseif getgenv().R9 == false and getgenv().R10 == true then
-                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button10.Part
-                getgenv().R10 = false
-                
-            elseif getgenv().R10 == false and getgenv().R11 == true then
-                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button11.Part
-                getgenv().R11 = false
-                
-            elseif getgenv().R11 == false and getgenv().R12 == true then
-                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button12.Part
-                getgenv().R12 = false
-                
-            elseif getgenv().R12 == false and getgenv().R13 == true then
-                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button13.Part
-                getgenv().R13 = false
-                
-            elseif getgenv().R13 == false and getgenv().R14 == true then
-                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button14.Part
-                getgenv().R14 = false
-                
-            elseif getgenv().R14 == false and getgenv().R15 == true then
-                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button15.Part
-                getgenv().R15 = false
-            end
 
+            elseif Dust < 44999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button10.Part
+
+            elseif Dust < 164999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button11.Part
+
+            elseif Dust < 559999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button12.Part
+
+            elseif Dust < 999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button13.Part
+
+            elseif Dust < 9999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button14.Part
+
+            elseif Dust < 524999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button15.Part
+
+            elseif Dust < 1729999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button16.Part
+                             
+            elseif Dust < 25799999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button17.Part
+                               
+            elseif Dust < 99999999999999999999 then                                               
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button18.Part
+
+            elseif Dust < 524999999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button19.Part
+                
+            elseif Dust < 1199999999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button20.Part
+
+            elseif Dust < 6999999999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button21.Part
+               
+            elseif Dust < 999999999999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button22.Part
+
+            elseif Dust < 7649999999999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button23.Part
+            
+            elseif Dust < 35339999999999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button24.Part
+                
+            elseif Dust < 144999999999999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button25.Part
+            
+            elseif Dust < 433999999999999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button26.Part
+            
+            elseif Dust < 999999999999999999999999998 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button27.Part
+            
+            elseif Dust < 6239999999999999999999999999 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button28.Part
+        
+            elseif Dust < 18999999999999999999999999998 then
+                RebirthButton = game:GetService("Workspace").Buttons.Rebirths.Button29.Part
+            
+            end 
+            
+            
+            
+            
             firetouchinterest(playerHead, RebirthButton, 0)
             wait()
             firetouchinterest(playerHead, RebirthButton, 1)
-            
+
         end
-    
-        if getgenv().Dust < 350000 then
-            getgenv().R1 = true
-            getgenv().R2 = true
-            getgenv().R3 = true
-            getgenv().R4 = true
-            getgenv().R5 = true
-            getgenv().R6 = true
-            getgenv().R7 = true
-            getgenv().R8 = true
-            getgenv().R9 = true
-            getgenv().R10 = true
-            getgenv().R11 = true
-            getgenv().R12 = true
-            getgenv().R13 = true
-            getgenv().R14 = true
-            getgenv().R15 = true
-        else
-            getgenv().R1 = false
-            getgenv().R2 = false
-            getgenv().R3 = false
-            getgenv().R4 = false
-            getgenv().R5 = false
-            getgenv().R6 = false
-            getgenv().R7 = false
-            getgenv().R8 = false
-            getgenv().R9 = false
-            getgenv().R10 = false
-            getgenv().R11 = false
-            getgenv().R12 = false
-            getgenv().R13 = false
-            getgenv().R14 = false
-            getgenv().R15 = false
-        end
-    
     else
         getgenv().RA = false
     end
