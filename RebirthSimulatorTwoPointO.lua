@@ -109,7 +109,7 @@ RebirthsSection:NewToggle("Automatic Normal Rebirth", "Toggles the automatic Nor
             
         end
     
-        if Dust < 350000 then
+        if getgenv().Dust < 350000 then
             getgenv().R1 = true
             getgenv().R2 = true
             getgenv().R3 = true
@@ -161,17 +161,17 @@ UltraRebirthsSection:NewToggle("Automatic Ultra Rebirth", "Toggles the automatic
         while wait() do
             if not AUR == true then break end
 
-            if UR1 == true then
+            if getgenv().UR1 == true then
                 UltraRebirthButton = game:GetService("Workspace").Buttons.UltraRebirths.UltraButton1.Part
-                UR1 = false
+                getgenv().UR1 = false
             end
-            if UR2 == true then
+            if getgenv().UR2 == true then
                 UltraRebirthButton = game:GetService("Workspace").Buttons.UltraRebirths.UltraButton2.Part
-                UR2 = false
+                getgenv().UR2 = false
             end
-            if UR3 == true then
+            if getgenv().UR3 == true then
                 UltraRebirthButton = game:GetService("Workspace").Buttons.UltraRebirths.UltraButton3.Part
-                UR3 = false
+                getgenv().UR3 = false
             end
             
             firetouchinterest(playerHead, UltraRebirthButton, 0)
@@ -179,7 +179,7 @@ UltraRebirthsSection:NewToggle("Automatic Ultra Rebirth", "Toggles the automatic
             firetouchinterest(playerHead, UltraRebirthButton, 1)
         end
 
-        if Rebirths < 250 then
+        if getgenv().Rebirths < 250 then
             getgenv().UR1 = true
             getgenv().UR2 = true
             getgenv().UR3 = true
